@@ -32,3 +32,121 @@
 2018-10-31 08:29:49,191 - program - DEBUG - Exit program
 2018-10-31 08:44:49,608 - program - DEBUG - Start program
 2018-10-31 08:44:49,609 - program - DEBUG - Exit program
+2018-10-31 09:05:05,305 - program - DEBUG - Start program
+2018-10-31 09:05:05,305 - program - DEBUG - Exit program
+2018-10-31 09:05:11,315 - program - DEBUG - Start program
+2018-10-31 09:05:11,317 - program - DEBUG - Exit program
+2018-10-31 09:15:08,191 - program - DEBUG - Start program
+2018-10-31 09:15:18,286 - program - DEBUG - Start program
+2018-10-31 09:15:44,673 - program - DEBUG - Start program
+2018-10-31 09:15:44,674 - program - DEBUG - Exit program
+2018-10-31 09:16:36,892 - program - DEBUG - Start program
+2018-10-31 09:16:36,894 - program - DEBUG - Cannot create folderc:\alma2
+2018-10-31 09:16:36,894 - program - DEBUG - Exit program
+2018-10-31 09:17:12,814 - program - DEBUG - Start program
+2018-10-31 09:17:12,815 - program - DEBUG - Folder 'c:\alma2' already exists
+2018-10-31 09:17:12,816 - program - DEBUG - Exit program
+2018-10-31 09:18:04,015 - program - DEBUG - Start program
+2018-10-31 09:18:04,016 - program - DEBUG - Folder 'c:\alma3' created succesfuly
+2018-10-31 09:18:04,017 - program - DEBUG - Exit program
+2018-10-31 09:22:30,756 - program - DEBUG - Start program
+2018-10-31 09:22:30,757 - program - DEBUG - Folder 'c:\alma3' already exists
+2018-10-31 09:22:30,757 - program - DEBUG - Exit program
+2018-10-31 09:22:39,721 - program - DEBUG - Start program
+2018-10-31 09:22:39,723 - program - DEBUG - Folder 'c:\alma4' created succesfuly
+2018-10-31 09:22:39,723 - program - DEBUG - Exit program
+2018-10-31 09:37:16,595 - program - DEBUG - Start program
+2018-10-31 09:37:16,597 - program - DEBUG - Folder 'c:\alma4' already exists
+2018-10-31 09:37:16,597 - program - DEBUG - Exit program
+2018-10-31 09:37:20,168 - program - DEBUG - Start program
+2018-10-31 09:37:20,169 - program - DEBUG - Folder 'c:\alma5' created succesfuly
+2018-10-31 09:38:04,667 - program - DEBUG - Start program
+2018-10-31 09:38:04,668 - program - DEBUG - Folder 'c:\alma5' already exists
+2018-10-31 09:38:04,668 - program - DEBUG - Exit program
+2018-10-31 09:38:10,540 - program - DEBUG - Start program
+2018-10-31 09:38:10,541 - program - DEBUG - Folder 'c:\alma6' created succesfuly
+2018-10-31 09:38:10,542 - program - DEBUG - Exit program
+2018-10-31 09:38:46,851 - program - DEBUG - Start program
+2018-10-31 09:38:46,853 - program - DEBUG - Folder 'c:\alma7' created succesfuly
+2018-10-31 09:38:46,853 - program - DEBUG - Exit program
+2018-10-31 09:41:37,598 - program - DEBUG - Start program
+2018-10-31 09:41:37,599 - program - DEBUG - Folder 'c:\alma7' already exists
+2018-10-31 09:41:37,599 - program - DEBUG - Exit program
+2018-10-31 09:41:42,766 - program - DEBUG - Start program
+2018-10-31 09:41:42,768 - program - DEBUG - Folder 'c:\alma8' created succesfuly
+2018-10-31 09:42:11,927 - program - DEBUG - Start program
+2018-10-31 09:42:11,928 - program - DEBUG - Folder 'c:\alma8' already exists
+2018-10-31 09:42:11,928 - program - DEBUG - Exit program
+2018-10-31 09:42:15,455 - program - DEBUG - Start program
+2018-10-31 09:42:15,457 - program - DEBUG - Folder 'c:\alma9' created succesfuly
+2018-10-31 09:42:15,457 - program - DEBUG - Exit program
+2018-10-31 09:48:18,420 - program - DEBUG - Start program
+2018-10-31 09:48:18,421 - program - DEBUG - Folder 'c:\alma88' created succesfuly
+2018-10-31 09:48:18,422 - program - DEBUG - Start GUI
+2018-10-31 09:48:48,174 - program - DEBUG - Start program
+2018-10-31 09:48:48,175 - program - DEBUG - Folder 'c:\alma89' created succesfuly
+2018-10-31 09:48:48,176 - program - DEBUG - Start GUI
+2018-10-31 09:48:48,176 - program - DEBUG - Exit program
+2018-10-31 09:53:09,094 - program - DEBUG - Start program
+2018-10-31 09:53:09,095 - program - DEBUG - Target folder: c:\alma89
+2018-10-31 09:53:09,096 - program - DEBUG - Folder 'c:\alma89' created succesfuly
+2018-10-31 09:53:09,096 - program - DEBUG - New project name: 'None'
+2018-10-31 09:53:09,096 - program - DEBUG - New project description: 'None'
+2018-10-31 09:53:09,096 - program - DEBUG - Start GUI
+2018-10-31 09:53:09,096 - program - DEBUG - Exit program
+2018-10-31 09:54:18,153 - program - DEBUG - Start program
+2018-10-31 09:54:18,154 - program - DEBUG - Target folder: c:\alma88
+2018-10-31 09:54:18,154 - program - DEBUG - Folder 'c:\alma88' created succesfuly
+2018-10-31 09:54:18,154 - program - DEBUG - New project name: 'None'
+2018-10-31 09:54:18,154 - program - DEBUG - New project description: 'None'
+2018-10-31 09:54:18,154 - program - DEBUG - Start GUI to add project name and description
+2018-10-31 09:54:18,154 - program - DEBUG - Exit program
+2018-10-31 09:55:18,707 - program - DEBUG - Start program
+2018-10-31 09:55:18,708 - program - DEBUG - Target folder: c:\alma87
+2018-10-31 09:55:18,708 - program - DEBUG - Folder 'c:\alma87' created succesfuly
+2018-10-31 09:55:18,708 - program - DEBUG - New project name: 'None'
+2018-10-31 09:55:18,708 - program - DEBUG - New project description: 'None'
+2018-10-31 09:55:18,708 - program - DEBUG - Start GUI to add project name and/or description
+2018-10-31 09:55:18,708 - program - DEBUG - Exit program
+2018-10-31 09:57:16,589 - program - DEBUG - Start program
+2018-10-31 09:57:16,590 - program - DEBUG - Target folder: c:\alma87
+2018-10-31 09:57:16,590 - program - DEBUG - Folder 'c:\alma87' already exists
+2018-10-31 09:57:16,590 - program - DEBUG - Exit program
+2018-10-31 10:00:00,357 - program - DEBUG - Start program
+2018-10-31 10:00:00,358 - program - DEBUG - Target folder: c:\alma87
+2018-10-31 10:00:00,358 - program - DEBUG - Folder 'c:\alma87' already exists
+2018-10-31 10:00:00,358 - program - DEBUG - Exit program
+2018-10-31 10:00:14,603 - program - DEBUG - Start program
+2018-10-31 10:00:14,605 - program - DEBUG - Target folder: c:\alma86
+2018-10-31 10:00:14,605 - program - DEBUG - Folder 'c:\alma86' created succesfuly
+2018-10-31 10:00:14,605 - program - DEBUG - New project name: 'Majom parádé'
+2018-10-31 10:00:14,605 - program - DEBUG - New project description: 'None'
+2018-10-31 10:00:14,605 - program - DEBUG - Start GUI to add project name and/or description
+2018-10-31 10:00:14,605 - program - DEBUG - Exit program
+2018-10-31 10:00:54,932 - pyprojcreator - DEBUG - Start program
+2018-10-31 10:00:54,933 - pyprojcreator - DEBUG - Target folder: c:\alma85
+2018-10-31 10:00:54,934 - pyprojcreator - DEBUG - Folder 'c:\alma85' created succesfuly
+2018-10-31 10:00:54,934 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-10-31 10:00:54,934 - pyprojcreator - DEBUG - New project description: 'None'
+2018-10-31 10:00:54,934 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-10-31 10:00:54,934 - pyprojcreator - DEBUG - Exit program
+2018-10-31 10:01:43,453 - pyprojcreator - DEBUG - Start program
+2018-10-31 10:01:43,454 - pyprojcreator - DEBUG - Target folder: c:\alma84
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - Folder 'c:\alma84' created succesfuly
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - New project description: 'Almás rétes'
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - No GUI to add project name and/or description
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - Project name: 'Majom parádé
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - Project description: 'Almás rétes
+2018-10-31 10:01:43,455 - pyprojcreator - DEBUG - Exit program
+2018-10-31 10:52:17,627 - pyprojcreator - DEBUG - Start program
+2018-10-31 10:52:17,627 - pyprojcreator - DEBUG - Target folder: c:\alma84
+2018-10-31 10:52:17,627 - pyprojcreator - DEBUG - Folder 'c:\alma84' already exists
+2018-10-31 10:52:17,627 - pyprojcreator - DEBUG - Exit program
+2018-10-31 10:52:33,099 - pyprojcreator - DEBUG - Start program
+2018-10-31 10:52:33,099 - pyprojcreator - DEBUG - Target folder: c:\Windows\alma84
+2018-10-31 10:52:33,100 - pyprojcreator - DEBUG - Cannot create folder c:\Windows\alma84
+2018-10-31 10:53:17,467 - pyprojcreator - DEBUG - Start program
+2018-10-31 10:53:17,468 - pyprojcreator - DEBUG - Target folder: c:\Windows\alma84
+2018-10-31 10:53:17,468 - pyprojcreator - DEBUG - Cannot create folder c:\Windows\alma84
+2018-10-31 10:53:17,468 - pyprojcreator - DEBUG - Exit program
