@@ -7,6 +7,8 @@ This module creates python basic project files in a folder.
 import logging
 import sys
 import argparse
+import os
+import errno
 
 logger = logging.getLogger('program')
 # set level for file handling (NOTSET>DEBUG>INFO>WARNING>ERROR>CRITICAL)
@@ -38,27 +40,8 @@ def parse_arguments():
     @return arguments
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('-cc', '--catalogcode', help='catalog barcode')
-    parser.add_argument('-cn', '--catalognumber', help='catalog number')
-    parser.add_argument('-lc', '--lotcode', help='LOT barcode')
-    parser.add_argument('-ln', '--lotnumber', help='LOT number')
-    parser.add_argument('-li', '--lic', help='LIC identifier')
-    parser.add_argument('-um', '--unitofmeasure', help='Unit of Measure')
-    parser.add_argument('-f', '--function', help='function to execute',
-                        type=str, choices=['get_lic', 'check_lic_length',
-                                           'check_lic_first_char',
-                                           'check_code_start',
-                                           'get_catalog_number',
-                                           'get_unit_of_measure',
-                                           'get_sum_of_digits',
-                                           'calculate_checkdigit',
-                                           'get_checkdigit',
-                                           'create_catalog_code',
-                                           'check_lot_code_start',
-                                           'get_lot_number',
-                                           'get_link_char_from_catalog_code',
-                                           'get_link_char'
-                                           ])
+    parser.add_argument('-pf', '--projectfolder',
+                        help='target folder of the project')
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='increase output verbosity')
     return parser.parse_args()
@@ -69,26 +52,35 @@ def execute_program():
     """
 
     args = parse_arguments()
-    if args.function == 'get_lic':
-        res = str(get_lic(args.catalogcode))
-        if args.verbose:
-            print("LIC: " + res)
-        else:
-            print(res)
+    create_folder(args.projectfolder, args.verbose)
 
 
-def get_lic(code):
-    """Get LIC Labeler Identification Code.
+def create_folder(folder_name, verbosity):
+    """Create folder for new project.
 
     Arguments:
-        code {str} -- catalog barcode
+        folder_name {str} -- target folder name
 
-    Returns:
-        str -- LIC code
     """
-
-    ret = code[1:5]
-    return ret
+    if verbosity:
+        print("Target folder: " + folder_name)
+    else:
+        print(folder_name)
+    # Check if folder exists
+    folder_exists = os.path.isdir(folder_name)
+    if folder_exists:
+        if verbosity:
+            print("Folder '" + folder_name + "' already exists")
+        else:
+            print(str(folder_exists))
+    else:
+       # create folder
+        try:
+            os.makedirs(folder_name)
+            # code here
+        except OSError as e:
+            if e.errno != errno.EEXIST:
+                raise
 
 
 if __name__ == '__main__':
