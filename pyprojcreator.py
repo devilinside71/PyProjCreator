@@ -19,7 +19,6 @@ __email__ = 'laszlo.devil@gmail.com'
 __status__ = 'Initial'
 
 
-
 LOGGER = logging.getLogger('pyprojcreator')
 # set level for file handling (NOTSET>DEBUG>INFO>WARNING>ERROR>CRITICAL)
 LOGGER.setLevel(logging.DEBUG)
@@ -53,14 +52,16 @@ class ProjCreatorProgram():
         self.entry_folder = Entry(self.master)
         self.entry_name = Entry(self.master)
         self.entry_desc = Entry(self.master)
+        self.entry_author = Entry(self.master)
         self.project_name = ''
         self.project_desc = ''
         self.folder_name = ''
+        self.project_author = ''
 
     @staticmethod
     def parse_arguments():
         """Parse arguments.
-        
+
         Returns:
             parser args -- parser argumnents
         """
@@ -72,6 +73,8 @@ class ProjCreatorProgram():
                             help='name of the project')
         parser.add_argument('-d', '--description',
                             help='description of the project')
+        parser.add_argument('-a', '--author',
+                            help='author of the project')
         parser.add_argument('-v', '--verbose', action='store_true',
                             help='increase output verbosity')
         return parser.parse_args()
@@ -83,13 +86,17 @@ class ProjCreatorProgram():
         self.folder_name = args.folder
         self.project_name = args.name
         self.project_desc = args.description
+        self.project_author = args.author
         if self.folder_name is None:
             self.folder_name = ''
         if self.project_name is None:
             self.project_name = ''
         if self.project_desc is None:
-            self.project_desc = ''
-        if self.folder_name == '' or self.project_name == '' or self.project_desc == '':
+            self.project_desc = 'This class module is...'
+        if self.project_author is None:
+            self.project_author = 'Laszlo Tamas'
+        if self.folder_name == '' or self.project_name == '' \
+                or self.project_desc == '' or self.project_author == '':
             Label(self.master, text='Folder Name').grid(row=0)
             self.entry_folder.delete(0, END)
             self.entry_folder.insert(0, self.folder_name)
@@ -102,10 +109,15 @@ class ProjCreatorProgram():
             self.entry_desc.delete(0, END)
             self.entry_desc.insert(0, self.project_desc)
             self.entry_desc.grid(row=2, column=1)
-            Button(self.master, text='Cancel', command=self.master
-                   .quit).grid(row=3, column=0, sticky=W, pady=4)
+            Label(self.master, text='Author').grid(row=3)
+            self.entry_author.delete(0, END)
+            self.entry_author.insert(0, self.project_author)
+            self.entry_author.grid(row=3, column=1)
             Button(self.master, text='OK', command=self.set_project).grid(
-                row=3, column=1, sticky=W, pady=4)
+                row=4, column=0, sticky=W, pady=4)
+            Button(self.master, text='Cancel', command=self.master
+                   .quit).grid(row=4, column=1, sticky=W, pady=4)
+
             self.master.mainloop()
         else:
             LOGGER.debug('Project name: %s', self.project_name)
@@ -149,8 +161,10 @@ class ProjCreatorProgram():
         self.folder_name = self.entry_folder.get()
         self.project_name = self.entry_name.get()
         self.project_desc = self.entry_desc.get()
+        self.project_author = self.entry_author.get()
         LOGGER.debug('Project name: %s', self.project_name)
         LOGGER.debug('Project description: %s', self.project_desc)
+        LOGGER.debug('Author: %s', self.project_author)
         self.master.quit()
         self.create_project()
 
@@ -159,7 +173,17 @@ class ProjCreatorProgram():
         """
 
         if self.create_folder(self.folder_name):
-            pass
+            with open('sample01.py', 'r') as myfile:
+                data = myfile.read()
+                data = data.replace('__AUTHOR__', self.project_author)
+                data = data.replace('__PROJECTNAME__', self.project_name)
+                data = data.replace('__PROJECTNAMELCASE__',
+                                    self.project_name.lower())
+                data = data.replace('__DESCRIPTION__', self.project_desc)
+                print(data)
+                text_file = open(self.folder_name + '\\'+self.project_name.lower()+'.py', "w")
+                text_file.write(data)
+                text_file.close()                
         else:
             sys.exit()
 
