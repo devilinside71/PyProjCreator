@@ -44,7 +44,7 @@ LOGGER.addHandler(LOGGER_CH)
 
 
 class ProjCreatorProgram():
-    """Main class
+    """Main class.
 
     """
 
@@ -59,11 +59,11 @@ class ProjCreatorProgram():
 
     @staticmethod
     def parse_arguments():
-        '''Parse arguments
+        """Parse arguments.
         
         Returns:
             parser args -- parser argumnents
-        '''
+        """
 
         parser = argparse.ArgumentParser()
         parser.add_argument('-f', '--folder',
@@ -77,8 +77,8 @@ class ProjCreatorProgram():
         return parser.parse_args()
 
     def execute_program(self):
-        '''Execute the program by arguments.
-        '''
+        """Execute the program by arguments.
+        """
         args = self.parse_arguments()
         self.folder_name = args.folder
         self.project_name = args.name
@@ -114,14 +114,14 @@ class ProjCreatorProgram():
 
     @staticmethod
     def create_folder(folder_name):
-        '''Create folder for new project.
+        """Create folder for new project.
 
         Arguments:
             folder_name {str} -- target folder name
 
         Returns:
             bool -- folder created succesfuly
-        '''
+        """
         ret = False
         LOGGER.debug('Target folder: %s', folder_name)
         # Check if folder exists
@@ -143,8 +143,8 @@ class ProjCreatorProgram():
         return ret
 
     def set_project(self):
-        '''Setup variables from GUI for project creation
-        '''
+        """Setup variables from GUI for project creation.
+        """
 
         self.folder_name = self.entry_folder.get()
         self.project_name = self.entry_name.get()
@@ -155,8 +155,8 @@ class ProjCreatorProgram():
         self.create_project()
 
     def create_project(self):
-        '''Create project
-        '''
+        """Create project.
+        """
 
         if self.create_folder(self.folder_name):
             pass
