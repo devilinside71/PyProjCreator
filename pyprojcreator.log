@@ -150,3 +150,181 @@
 2018-10-31 10:53:17,468 - pyprojcreator - DEBUG - Target folder: c:\Windows\alma84
 2018-10-31 10:53:17,468 - pyprojcreator - DEBUG - Cannot create folder c:\Windows\alma84
 2018-10-31 10:53:17,468 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:52:17,292 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:52:17,293 - pyprojcreator - DEBUG - Target folder: c:\Windows\alma84
+2018-11-05 05:52:17,294 - pyprojcreator - DEBUG - Cannot create folder c:\Windows\alma84
+2018-11-05 05:52:17,294 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:52:23,314 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:52:23,316 - pyprojcreator - DEBUG - Target folder: c:\alma84
+2018-11-05 05:52:23,316 - pyprojcreator - DEBUG - Folder 'c:\alma84' already exists
+2018-11-05 05:52:23,316 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:53:32,420 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:53:32,421 - pyprojcreator - DEBUG - Target folder: c:\alma84
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - Folder 'c:\alma84' created succesfuly
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - New project description: 'Almás rétes'
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - No GUI needed to add project name and/or description
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - Project name: 'Majom parádé
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - Project description: 'Almás rétes
+2018-11-05 05:53:32,422 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:53:46,994 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:53:46,995 - pyprojcreator - DEBUG - Target folder: c:\alma85
+2018-11-05 05:53:46,996 - pyprojcreator - DEBUG - Folder 'c:\alma85' created succesfuly
+2018-11-05 05:53:46,996 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 05:53:46,996 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 05:53:46,996 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 05:53:47,367 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:55:00,513 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:55:00,515 - pyprojcreator - DEBUG - Target folder: c:\alma86
+2018-11-05 05:55:00,515 - pyprojcreator - DEBUG - Folder 'c:\alma86' created succesfuly
+2018-11-05 05:55:00,515 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 05:55:00,516 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 05:55:00,516 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 05:55:00,579 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:55:15,173 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:55:15,175 - pyprojcreator - DEBUG - Target folder: c:\alma87
+2018-11-05 05:55:15,175 - pyprojcreator - DEBUG - Folder 'c:\alma87' created succesfuly
+2018-11-05 05:55:15,176 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 05:55:15,176 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 05:55:15,176 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 05:55:40,821 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:56:48,987 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:56:48,988 - pyprojcreator - DEBUG - Target folder: c:\alma88
+2018-11-05 05:56:48,989 - pyprojcreator - DEBUG - Folder 'c:\alma88' created succesfuly
+2018-11-05 05:56:48,989 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 05:56:48,989 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 05:56:48,989 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 05:57:07,335 - pyprojcreator - DEBUG - Exit program
+2018-11-05 05:58:24,190 - pyprojcreator - DEBUG - Start program
+2018-11-05 05:58:24,190 - pyprojcreator - DEBUG - Target folder: c:\alma89
+2018-11-05 05:58:24,190 - pyprojcreator - DEBUG - Folder 'c:\alma89' created succesfuly
+2018-11-05 05:58:24,190 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 05:58:24,190 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 05:58:24,190 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 05:58:35,724 - pyprojcreator - DEBUG - Exit program
+2018-11-05 06:00:37,130 - pyprojcreator - DEBUG - Start program
+2018-11-05 06:00:37,145 - pyprojcreator - DEBUG - Target folder: c:\alma81
+2018-11-05 06:00:37,145 - pyprojcreator - DEBUG - Folder 'c:\alma81' created succesfuly
+2018-11-05 06:00:37,145 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 06:00:37,145 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 06:00:37,145 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 06:00:50,892 - pyprojcreator - DEBUG - Exit program
+2018-11-05 06:15:34,218 - pyprojcreator - DEBUG - Start program
+2018-11-05 06:15:34,219 - pyprojcreator - DEBUG - Target folder: c:\alma82
+2018-11-05 06:15:34,219 - pyprojcreator - DEBUG - Folder 'c:\alma82' created succesfuly
+2018-11-05 06:15:34,219 - pyprojcreator - DEBUG - New project name: 'Majom parádé'
+2018-11-05 06:15:34,219 - pyprojcreator - DEBUG - New project description: 'None'
+2018-11-05 06:15:34,219 - pyprojcreator - DEBUG - Start GUI to add project name and/or description
+2018-11-05 06:15:55,868 - pyprojcreator - DEBUG - Exit program
+2018-11-05 06:45:07,424 - pyprojcreator - DEBUG - Start program
+2018-11-05 06:45:07,440 - pyprojcreator - DEBUG - Target folder: c:\alma83
+2018-11-05 06:45:07,440 - pyprojcreator - DEBUG - Folder 'c:\alma83' created succesfuly
+2018-11-05 06:45:19,576 - pyprojcreator - DEBUG - Exit program
+2018-11-05 06:46:46,449 - pyprojcreator - DEBUG - Start program
+2018-11-05 06:46:46,449 - pyprojcreator - DEBUG - Target folder: c:\alma84
+2018-11-05 06:46:46,449 - pyprojcreator - DEBUG - Folder 'c:\alma84' already exists
+2018-11-05 06:46:46,449 - pyprojcreator - DEBUG - Exit program
+2018-11-05 06:46:56,847 - pyprojcreator - DEBUG - Start program
+2018-11-05 06:46:56,847 - pyprojcreator - DEBUG - Target folder: c:\alma8q
+2018-11-05 06:46:56,847 - pyprojcreator - DEBUG - Folder 'c:\alma8q' created succesfuly
+2018-11-05 06:47:07,500 - pyprojcreator - DEBUG - Exit program
+2018-11-05 06:48:02,641 - pyprojcreator - DEBUG - Start program
+2018-11-05 06:48:02,656 - pyprojcreator - DEBUG - Target folder: c:\alma8q2
+2018-11-05 06:48:02,656 - pyprojcreator - DEBUG - Folder 'c:\alma8q2' created succesfuly
+2018-11-05 06:48:13,058 - pyprojcreator - DEBUG - Exit program
+2018-11-05 09:02:06,706 - pyprojcreator - DEBUG - Start program
+2018-11-05 09:02:06,706 - pyprojcreator - DEBUG - Exit program
+2018-11-05 09:52:52,177 - pyprojcreator - DEBUG - Start program
+2018-11-05 09:53:00,118 - pyprojcreator - DEBUG - Exit program
+2018-11-05 09:54:06,275 - pyprojcreator - DEBUG - Start program
+2018-11-05 09:54:13,078 - pyprojcreator - DEBUG - Exit program
+2018-11-05 09:54:36,255 - pyprojcreator - DEBUG - Start program
+2018-11-05 09:54:40,868 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:11:40,573 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:11:40,908 - pyprojcreator - DEBUG - Target folder: c:\alma8q3
+2018-11-05 10:11:40,908 - pyprojcreator - DEBUG - Folder 'c:\alma8q3' created succesfuly
+2018-11-05 10:11:52,729 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:13:22,144 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:13:22,207 - pyprojcreator - DEBUG - Target folder: c:\alma8q4
+2018-11-05 10:13:22,207 - pyprojcreator - DEBUG - Folder 'c:\alma8q4' created succesfuly
+2018-11-05 10:13:36,306 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:15:17,952 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:15:23,505 - pyprojcreator - DEBUG - Target folder: c:\alma8q5
+2018-11-05 10:15:23,505 - pyprojcreator - DEBUG - Folder 'c:\alma8q5' created succesfuly
+2018-11-05 10:15:23,505 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:16:05,599 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:16:11,114 - pyprojcreator - DEBUG - Project name: dsf
+Project description: we
+2018-11-05 10:16:11,114 - pyprojcreator - DEBUG - Target folder: c:\alma8q6
+2018-11-05 10:16:11,114 - pyprojcreator - DEBUG - Folder 'c:\alma8q6' created succesfuly
+2018-11-05 10:16:11,114 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:17:27,693 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:17:33,907 - pyprojcreator - DEBUG - Project name: 21313
+Project description: ycxxyc
+2018-11-05 10:17:33,907 - pyprojcreator - DEBUG - Target folder: c:\alma8q7
+2018-11-05 10:17:33,907 - pyprojcreator - DEBUG - Folder 'c:\alma8q7' created succesfuly
+2018-11-05 10:17:33,907 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:18:40,311 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:18:47,299 - pyprojcreator - DEBUG - Project name: 1232
+2018-11-05 10:18:47,299 - pyprojcreator - DEBUG - Project description: mnnb
+2018-11-05 10:18:47,299 - pyprojcreator - DEBUG - Target folder: c:\alma8q8
+2018-11-05 10:18:47,299 - pyprojcreator - DEBUG - Folder 'c:\alma8q8' created succesfuly
+2018-11-05 10:18:47,299 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:21:07,218 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:21:15,252 - pyprojcreator - DEBUG - Project name: ggfdg
+2018-11-05 10:21:15,252 - pyprojcreator - DEBUG - Project description: gfdg
+2018-11-05 10:21:15,252 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 10:21:15,252 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' created succesfuly
+2018-11-05 10:21:15,252 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:22:04,494 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:22:20,783 - pyprojcreator - DEBUG - Project name: fdsf
+2018-11-05 10:22:20,783 - pyprojcreator - DEBUG - Project description: fdsf
+2018-11-05 10:22:20,783 - pyprojcreator - DEBUG - Target folder: c:\alma8qa
+2018-11-05 10:22:20,783 - pyprojcreator - DEBUG - Folder 'c:\alma8qa' created succesfuly
+2018-11-05 10:22:20,783 - pyprojcreator - DEBUG - Exit program
+2018-11-05 10:23:09,147 - pyprojcreator - DEBUG - Start program
+2018-11-05 10:23:18,522 - pyprojcreator - DEBUG - Project name: 1233
+2018-11-05 10:23:18,522 - pyprojcreator - DEBUG - Project description: erwer
+2018-11-05 10:23:18,522 - pyprojcreator - DEBUG - Target folder: c:\alma8qb
+2018-11-05 10:23:18,522 - pyprojcreator - DEBUG - Folder 'c:\alma8qb' created succesfuly
+2018-11-05 10:23:18,522 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:07:56,329 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:08:02,888 - pyprojcreator - DEBUG - Project name: Kuttya
+2018-11-05 11:08:02,888 - pyprojcreator - DEBUG - Project description: Almás rétes õrzõje
+2018-11-05 11:08:02,888 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 11:08:02,888 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' created succesfuly
+2018-11-05 11:08:02,888 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:19:44,895 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:19:48,401 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:20:02,493 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:20:04,776 - pyprojcreator - DEBUG - Project name: Kuttya
+2018-11-05 11:20:04,776 - pyprojcreator - DEBUG - Project description: Almás rétes õrzõje
+2018-11-05 11:20:04,776 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 11:20:04,776 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' created succesfuly
+2018-11-05 11:20:04,776 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:25:31,816 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:25:43,067 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:25:53,363 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:25:53,427 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:27:15,265 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:27:15,328 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 11:27:15,329 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' created succesfuly
+2018-11-05 11:27:15,329 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:28:07,301 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:28:07,356 - pyprojcreator - DEBUG - Project name: Kuttya
+2018-11-05 11:28:07,356 - pyprojcreator - DEBUG - Project description: Almás rétes õrzõje
+2018-11-05 11:28:07,356 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 11:28:07,356 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' created succesfuly
+2018-11-05 11:28:07,356 - pyprojcreator - DEBUG - Exit program
+2018-11-05 11:28:42,543 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:28:53,879 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:30:02,410 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:30:02,473 - pyprojcreator - DEBUG - Project name: Kuttya
+2018-11-05 11:30:02,473 - pyprojcreator - DEBUG - Project description: 
+2018-11-05 11:30:02,473 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 11:30:02,473 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' already exists
+2018-11-05 11:31:37,970 - pyprojcreator - DEBUG - Start program
+2018-11-05 11:31:45,740 - pyprojcreator - DEBUG - Project name: Kuttya
+2018-11-05 11:31:45,740 - pyprojcreator - DEBUG - Project description: Kelõ
+2018-11-05 11:31:45,740 - pyprojcreator - DEBUG - Target folder: c:\alma8q9
+2018-11-05 11:31:45,740 - pyprojcreator - DEBUG - Folder 'c:\alma8q9' already exists
