@@ -2,9 +2,8 @@
 """
 This module tests for __PROJECTNAMELCASE__ module.
 """
-import sys
 import unittest
-import __PROJECTNAMELCASE__
+import textnormalizer
 
 
 class testFunctions(unittest.TestCase):
@@ -15,15 +14,16 @@ class testFunctions(unittest.TestCase):
     """
 
     def setUp(self):
-        self.test_str_01 = 'input text'
+        self.test_str_01 = 'Árvíztűrő tükörfúrógép'
+        self.test_res_01 = 'Arvizturo_tukorfurogep'
 
     def test_sample_function(self):
         """Test01
         """
 
-        test_class = __PROJECTNAMELCASE__.__PROJECTNAME__()
-        test_class.par_input = self.test_str_01
-        self.assertEqual(test_class.sample_function(), 'inp text')
+        test_class = textnormalizer.TextNormalizer()
+        test_class.string_to_normalize = self.test_str_01
+        self.assertEqual(test_class.get_normalized_name(), self.test_res_01)
 
 
 if __name__ == '__main__':
