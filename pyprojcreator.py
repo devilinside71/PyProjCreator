@@ -9,6 +9,7 @@ import logging
 import os
 import sys
 from tkinter import Label, Entry, Button, W, END, Tk
+from textnormalizer import TextNormalizer
 
 __author__ = 'Laszlo Tamas'
 __copyright__ = 'Copyright 2027, Laszlo Tamas'
@@ -173,17 +174,37 @@ class ProjCreatorProgram():
         """
 
         if self.create_folder(self.folder_name):
+            text_norm = TextNormalizer()
+            # Create main file
             with open('sample01.py', 'r') as myfile:
                 data = myfile.read()
                 data = data.replace('__AUTHOR__', self.project_author)
-                data = data.replace('__PROJECTNAME__', self.project_name)
+                text_norm.string_to_normalize = self.project_name
+                data = data.replace('__PROJECTNAME__',
+                                    text_norm.get_normalized_name())
                 data = data.replace('__PROJECTNAMELCASE__',
-                                    self.project_name.lower())
+                                    text_norm.get_normalized_name().lower())
                 data = data.replace('__DESCRIPTION__', self.project_desc)
-                print(data)
-                text_file = open(self.folder_name + '\\'+self.project_name.lower()+'.py', "w")
+                # print(data)
+                text_file = open(self.folder_name + '\\' +
+                                 text_norm.get_normalized_name().lower()+'.py',
+                                 "w")
                 text_file.write(data)
-                text_file.close()                
+                text_file.close()
+            # Create unittest file
+            with open('sample01_test.py', 'r') as myfile:
+                data = myfile.read()
+                data = data.replace('__PROJECTNAME__',
+                                    text_norm.get_normalized_name())
+                data = data.replace('__PROJECTNAMELCASE__',
+                                    text_norm.get_normalized_name().lower())
+                # print(data)
+                text_file = open(self.folder_name + '\\' +
+                                 text_norm.get_normalized_name().lower() +
+                                 '_test.py',
+                                 "w")
+                text_file.write(data)
+                text_file.close()
         else:
             sys.exit()
 

@@ -46,7 +46,6 @@ class __PROJECTNAME__():
     """
 
     def __init__(self):
-
         self.par_input = ''
         self.par_output = ''
 
@@ -73,6 +72,14 @@ class __PROJECTNAME__():
         args = self.parse_arguments()
         self.par_input = args.input
         self.par_output = args.output
+        LOGGER.debug('Input: %s', self.par_input)
+        LOGGER.debug('Output: %s', self.par_output)
+
+    def sample_function(self):
+        """Sample function
+        """
+        res = self.par_input
+        return res
 
 
 if __name__ == '__main__':
