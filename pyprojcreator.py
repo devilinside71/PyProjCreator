@@ -96,8 +96,7 @@ class ProjCreatorProgram():
             self.project_desc = 'This class module is...'
         if self.project_author is None:
             self.project_author = 'Laszlo Tamas'
-        if self.folder_name == '' or self.project_name == '' \
-                or self.project_desc == '' or self.project_author == '':
+        if self.folder_name == '' or self.project_name == '' or self.project_desc == '' or self.project_author == '':
             Label(self.master, text='Folder Name').grid(row=0)
             self.entry_folder.delete(0, END)
             self.entry_folder.insert(0, self.folder_name)
@@ -114,11 +113,8 @@ class ProjCreatorProgram():
             self.entry_author.delete(0, END)
             self.entry_author.insert(0, self.project_author)
             self.entry_author.grid(row=3, column=1)
-            Button(self.master, text='OK', command=self.set_project).grid(
-                row=4, column=0, sticky=W, pady=4)
-            Button(self.master, text='Cancel', command=self.master
-                   .quit).grid(row=4, column=1, sticky=W, pady=4)
-
+            Button(self.master, text='OK', command=self.set_project).grid(row=4, column=0, sticky=W, pady=4)
+            Button(self.master, text='Cancel', command=self.master.quit).grid(row=4, column=1, sticky=W, pady=4)
             self.master.mainloop()
         else:
             LOGGER.debug('Project name: %s', self.project_name)
@@ -186,9 +182,7 @@ class ProjCreatorProgram():
                                     text_norm.get_normalized_name().lower())
                 data = data.replace('__DESCRIPTION__', self.project_desc)
                 # print(data)
-                text_file = open(self.folder_name + '\\' +
-                                 text_norm.get_normalized_name().lower()+'.py',
-                                 "w")
+                text_file = open(self.folder_name + '\\' + text_norm.get_normalized_name().lower() + '.py', "w")
                 text_file.write(data)
                 text_file.close()
             # Create unittest file
@@ -199,10 +193,7 @@ class ProjCreatorProgram():
                 data = data.replace('__PROJECTNAMELCASE__',
                                     text_norm.get_normalized_name().lower())
                 # print(data)
-                text_file = open(self.folder_name + '\\' +
-                                 text_norm.get_normalized_name().lower() +
-                                 '_test.py',
-                                 "w")
+                text_file = open(self.folder_name + '\\' + text_norm.get_normalized_name().lower() + '_test.py', "w")
                 text_file.write(data)
                 text_file.close()
         else:
