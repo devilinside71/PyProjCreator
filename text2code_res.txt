@@ -1,0 +1,4 @@
+text_string = ''
+text_string += 'Almás rétes\n'
+text_string += 'Kutyafüle\n'
+text_string += 'Árvíztűrő tükörfúrógép\n'

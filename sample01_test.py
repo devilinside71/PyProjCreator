@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-This module tests for __PROJECTNAMELCASE__ module.
+This module tests for __PROJECTNAMELCASE__.
+__PROJECTNAMELCASE__ module:
+__DESCRIPTION__
 """
 import sys
 import unittest

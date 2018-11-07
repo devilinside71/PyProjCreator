@@ -1,0 +1,36 @@
+2018-11-07 11:04:14,015 - text2code - DEBUG - Start program
+2018-11-07 11:04:56,975 - text2code - DEBUG - Start program
+2018-11-07 11:04:56,975 - text2code - DEBUG - Variable name: 
+2018-11-07 11:04:56,976 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:04:56,976 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:04:56,976 - text2code - DEBUG - Exit program
+2018-11-07 11:06:38,185 - text2code - DEBUG - Start program
+2018-11-07 11:07:14,765 - text2code - DEBUG - Start program
+2018-11-07 11:07:14,766 - text2code - DEBUG - Variable name: text_string
+2018-11-07 11:07:14,766 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:07:14,766 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:07:14,767 - text2code - DEBUG - Exit program
+2018-11-07 11:09:43,954 - text2code - DEBUG - Start program
+2018-11-07 11:09:43,956 - text2code - DEBUG - Variable name: text_string
+2018-11-07 11:09:43,956 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:09:43,956 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:09:43,956 - text2code - DEBUG - Exit program
+2018-11-07 11:15:32,534 - text2code - DEBUG - Start program
+2018-11-07 11:15:32,536 - text2code - DEBUG - Variable name: text_string
+2018-11-07 11:15:32,536 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:15:32,536 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:17:32,193 - text2code - DEBUG - Start program
+2018-11-07 11:17:32,194 - text2code - DEBUG - Variable name: text_string
+2018-11-07 11:17:32,194 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:17:32,194 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:17:32,197 - text2code - DEBUG - Exit program
+2018-11-07 11:19:16,408 - text2code - DEBUG - Start program
+2018-11-07 11:19:16,409 - text2code - DEBUG - Variable name: text_string
+2018-11-07 11:19:16,409 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:19:16,409 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:19:16,414 - text2code - DEBUG - Exit program
+2018-11-07 11:21:17,648 - text2code - DEBUG - Start program
+2018-11-07 11:21:17,649 - text2code - DEBUG - Variable name: text_string
+2018-11-07 11:21:17,649 - text2code - DEBUG - Input: text2code_sample.txt
+2018-11-07 11:21:17,649 - text2code - DEBUG - Output: text2code_res.txt
+2018-11-07 11:21:17,659 - text2code - DEBUG - Exit program

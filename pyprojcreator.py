@@ -185,7 +185,8 @@ class ProjCreatorProgram():
                                     text_norm.normalized_name().lower())
                 data = data.replace('__DESCRIPTION__', self.project_desc)
                 # print(data)
-                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '.py', "w")
+                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '.py', 'w',
+                                 encoding='utf-8')
                 text_file.write(data)
                 text_file.close()
             # Create unittest file
@@ -195,8 +196,10 @@ class ProjCreatorProgram():
                                     text_norm.normalized_name())
                 data = data.replace('__PROJECTNAMELCASE__',
                                     text_norm.normalized_name().lower())
+                data = data.replace('__DESCRIPTION__', self.project_desc)
                 # print(data)
-                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '_test.py', "w")
+                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '_test.py', 'w',
+                                 encoding='utf-8')
                 text_file.write(data)
                 text_file.close()
             # Create notes text file
@@ -206,8 +209,10 @@ class ProjCreatorProgram():
                                     text_norm.normalized_name())
                 data = data.replace('__PROJECTNAMELCASE__',
                                     text_norm.normalized_name().lower())
+                data = data.replace('__DESCRIPTION__', self.project_desc)
                 # print(data)
-                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '_notes.txt', "w")
+                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '_notes.txt', 'w',
+                                 encoding='utf-8')
                 text_file.write(data)
                 text_file.close()
         else:

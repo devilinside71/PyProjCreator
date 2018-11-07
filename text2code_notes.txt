@@ -1,0 +1,2 @@
+python text2code.py -v text_string -i text2code_sample.txt -o text2code_res.txt
+python text2code.py -h
