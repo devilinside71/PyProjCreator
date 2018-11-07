@@ -199,6 +199,17 @@ class ProjCreatorProgram():
                 text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '_test.py', "w")
                 text_file.write(data)
                 text_file.close()
+            # Create notes text file
+            with open('sample01_notes.txt', 'r') as myfile:
+                data = myfile.read()
+                data = data.replace('__PROJECTNAME__',
+                                    text_norm.normalized_name())
+                data = data.replace('__PROJECTNAMELCASE__',
+                                    text_norm.normalized_name().lower())
+                # print(data)
+                text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '_notes.txt', "w")
+                text_file.write(data)
+                text_file.close()
         else:
             sys.exit()
 
