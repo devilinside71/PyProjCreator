@@ -34,3 +34,8 @@
 2018-11-07 11:21:17,649 - text2code - DEBUG - Input: text2code_sample.txt
 2018-11-07 11:21:17,649 - text2code - DEBUG - Output: text2code_res.txt
 2018-11-07 11:21:17,659 - text2code - DEBUG - Exit program
+2018-11-07 13:20:35,234 - text2code - DEBUG - Start program
+2018-11-07 13:20:47,721 - text2code - DEBUG - Start program
+2018-11-07 13:20:47,723 - text2code - DEBUG - Variable name: None
+2018-11-07 13:20:47,723 - text2code - DEBUG - Input: None
+2018-11-07 13:20:47,723 - text2code - DEBUG - Output: None

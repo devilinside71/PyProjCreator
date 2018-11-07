@@ -4,12 +4,9 @@ This module creates text file with python code from input text file.
 """
 
 import argparse
-import errno
 import logging
-import os
 import sys
-from tkinter import Label, Entry, Button, W, END, Tk
-from textnormalizer import TextNormalizer
+
 
 __author__ = 'Laszlo Tamas'
 __copyright__ = 'Copyright 2027, Laszlo Tamas'
