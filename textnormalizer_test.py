@@ -19,8 +19,8 @@ class testFunctions(unittest.TestCase):
         self.test_str_02 = 'Árvíztűrő tükörfúrógép'
         self.test_res_02 = 'Arvizturo tukorfurogep'
 
-    def test_get_normalized_name(self):
-        """Test for get_normalized_name function.
+    def test_normalized_name(self):
+        """Test for normalized_name function.
         """
 
         test_class = textnormalizer.TextNormalizer()
