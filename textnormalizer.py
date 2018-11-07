@@ -17,7 +17,7 @@ class TextNormalizer():
         """
         pass
 
-    def get_normalized_name(self):
+    def normalized_name(self):
         """Replace non US characters
 
         Arguments:
@@ -55,5 +55,5 @@ class TextNormalizer():
 if __name__ == '__main__':
     PROG = TextNormalizer()
     PROG.string_to_normalize = 'Árvíztűrő tükörfúrógép'
-    print(PROG.get_normalized_name())
+    print(PROG.normalized_name())
     sys.exit()

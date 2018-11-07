@@ -25,9 +25,9 @@ class testFunctions(unittest.TestCase):
 
         test_class = textnormalizer.TextNormalizer()
         test_class.string_to_normalize = self.test_str_01
-        self.assertEqual(test_class.get_normalized_name(), self.test_res_01)
+        self.assertEqual(test_class.normalized_name(), self.test_res_01)
         test_class.string_to_normalize = self.test_str_02
-        self.assertEqual(test_class.get_normalized_name(), self.test_res_02)
+        self.assertEqual(test_class.normalized_name(), self.test_res_02)
 
 
 if __name__ == '__main__':
