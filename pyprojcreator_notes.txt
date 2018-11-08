@@ -1,0 +1,3 @@
+python pyprojcreator.py -f "c:\Alma03"
+python pyprojcreator.py -h
+python pyprojcreator.py -f "c:\Alma03" -n "KutyámMajom" -d "Sample project." -a "Laszlo Tamas"

@@ -482,3 +482,9 @@ Project description: ycxxyc
 2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Target folder: C:/Users/tamas.laszlo1/Documents/ddd
 2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Folder "C:/Users/tamas.laszlo1/Documents/ddd" already exists
 2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Exit program
+2018-11-08 06:50:48,960 - pyprojcreator - DEBUG - Start program
+2018-11-08 06:50:49,018 - pyprojcreator - DEBUG - Project name: KutyámMajom
+2018-11-08 06:50:49,018 - pyprojcreator - DEBUG - Project description: Sample project.
+2018-11-08 06:50:49,018 - pyprojcreator - DEBUG - Target folder: c:\Alma03
+2018-11-08 06:50:49,018 - pyprojcreator - DEBUG - Folder "c:\Alma03" created succesfuly
+2018-11-08 06:50:49,033 - pyprojcreator - DEBUG - Exit program
