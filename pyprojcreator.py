@@ -8,7 +8,7 @@ import errno
 import logging
 import os
 import sys
-from tkinter import Label, Entry, Button, W, END, Tk
+from tkinter import Label, Entry, Button, W, END, Tk, filedialog
 from textnormalizer import TextNormalizer
 
 __author__ = 'Laszlo Tamas'
@@ -58,6 +58,7 @@ class ProjCreatorProgram():
         self.project_desc = ''
         self.folder_name = ''
         self.project_author = ''
+        self.folder_created_by_dialog = False
 
     @staticmethod
     def parse_arguments():
@@ -88,6 +89,7 @@ class ProjCreatorProgram():
         self.project_name = args.name
         self.project_desc = args.description
         self.project_author = args.author
+        self.folder_created_by_dialog = False
         if self.folder_name is None:
             self.folder_name = ''
         if self.project_name is None:
@@ -116,6 +118,8 @@ class ProjCreatorProgram():
             self.entry_author.grid(row=3, column=1)
             Button(self.master, text='OK', command=self.set_project).grid(row=4, column=0, sticky=W, pady=4)
             Button(self.master, text='Cancel', command=self.master.quit).grid(row=4, column=1, sticky=W, pady=4)
+            Button(self.master, text='Browse', command=self.set_folder).grid(row=0, column=2, sticky=W, pady=4)
+
             self.master.title('Project creator')
             # self.master.geometry('500x130')
             self.master.mainloop()
@@ -168,11 +172,21 @@ class ProjCreatorProgram():
         self.master.quit()
         self.create_project()
 
+    def set_folder(self):
+        """Set the project folder by filedialog.
+        """
+
+        self.folder_name = filedialog.askdirectory()
+        self.entry_folder.delete(0, END)
+        self.entry_folder.insert(0, self.folder_name)
+        LOGGER.debug('Folder name: %s', self.folder_name)
+        self.folder_created_by_dialog = True
+
     def create_project(self):
         """Create project.
         """
 
-        if self.create_folder(self.folder_name):
+        if self.create_folder(self.folder_name) or self.folder_created_by_dialog:
             text_norm = TextNormalizer()
             # Create main file
             with open('sample01.py', 'r') as myfile:

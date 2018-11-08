@@ -450,3 +450,35 @@ Project description: ycxxyc
 2018-11-07 11:34:25,320 - pyprojcreator - DEBUG - Target folder: c:\Alma03
 2018-11-07 11:34:25,336 - pyprojcreator - DEBUG - Folder "c:\Alma03" created succesfuly
 2018-11-07 11:34:25,351 - pyprojcreator - DEBUG - Exit program
+2018-11-08 06:32:40,171 - pyprojcreator - DEBUG - Start program
+2018-11-08 06:32:47,668 - pyprojcreator - DEBUG - Exit program
+2018-11-08 06:38:26,024 - pyprojcreator - DEBUG - Start program
+2018-11-08 06:38:55,000 - pyprojcreator - DEBUG - Folder name: C:/Users/tamas.laszlo1/Documents/fffff
+2018-11-08 06:39:01,399 - pyprojcreator - DEBUG - Project name: Ökör
+2018-11-08 06:39:01,399 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 06:39:01,399 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 06:39:01,399 - pyprojcreator - DEBUG - Target folder: c:\Alma03
+2018-11-08 06:39:01,399 - pyprojcreator - DEBUG - Folder "c:\Alma03" created succesfuly
+2018-11-08 06:39:01,430 - pyprojcreator - DEBUG - Exit program
+2018-11-08 06:40:15,623 - pyprojcreator - DEBUG - Start program
+2018-11-08 06:40:23,973 - pyprojcreator - DEBUG - Folder name: C:/Users/tamas.laszlo1/Documents/fffff
+2018-11-08 06:40:41,555 - pyprojcreator - DEBUG - Project name: dfdss
+2018-11-08 06:40:41,555 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 06:40:41,555 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 06:40:41,555 - pyprojcreator - DEBUG - Target folder: C:/Users/tamas.laszlo1/Documents/fffff
+2018-11-08 06:40:41,555 - pyprojcreator - DEBUG - Folder "C:/Users/tamas.laszlo1/Documents/fffff" already exists
+2018-11-08 06:41:59,308 - pyprojcreator - DEBUG - Start program
+2018-11-08 06:42:09,707 - pyprojcreator - DEBUG - Folder name: C:/Users/tamas.laszlo1/Documents/ddd
+2018-11-08 06:42:15,107 - pyprojcreator - DEBUG - Project name: Állat
+2018-11-08 06:42:15,107 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 06:42:15,107 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 06:42:15,107 - pyprojcreator - DEBUG - Target folder: C:/Users/tamas.laszlo1/Documents/ddd
+2018-11-08 06:42:15,107 - pyprojcreator - DEBUG - Folder "C:/Users/tamas.laszlo1/Documents/ddd" already exists
+2018-11-08 06:45:42,378 - pyprojcreator - DEBUG - Start program
+2018-11-08 06:45:49,016 - pyprojcreator - DEBUG - Folder name: C:/Users/tamas.laszlo1/Documents/ddd
+2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Project name: Ökör
+2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Target folder: C:/Users/tamas.laszlo1/Documents/ddd
+2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Folder "C:/Users/tamas.laszlo1/Documents/ddd" already exists
+2018-11-08 06:45:52,936 - pyprojcreator - DEBUG - Exit program
