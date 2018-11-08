@@ -122,8 +122,109 @@ class MAIN():
             self.create_task_data(self.connection, task_1)
             self.create_task_data(self.connection, task_2)
 
+    @classmethod
+    def update_task(cls, conn, task):
+        """
+        update priority, begin_date, and end date of a task
+        :param conn:
+        :param task:
+        :return: project id
+        """
+        sql = ''' UPDATE tasks
+                SET priority = ? ,
+                    begin_date = ? ,
+                    end_date = ?
+                WHERE id = ?'''
+        sql_cursor = conn.cursor()
+        sql_cursor.execute(sql, task)
+
+    def update_task_data(self):
+        """ Update record.
+        """
+
+        self.update_task(self.connection, (2, '2015-01-04', '2015-01-06', 2))
+
+    @classmethod
+    def delete_task(cls, conn, task):
+        """
+        Update priority, begin_date, and end date of a task.
+        :param conn:
+        :param task:
+        :return: project id
+        """
+        sql = 'DELETE FROM tasks WHERE id=?'
+        sql_cursor = conn.cursor()
+        sql_cursor.execute(sql, task)
+
+    @classmethod
+    def delete_all_tasks(cls, conn):
+        """
+        Delete all rows in the tasks table.
+        :param conn: Connection to the SQLite database
+        :return:
+        """
+        sql = 'DELETE FROM tasks'
+        sql_cursor = conn.cursor()
+        sql_cursor.execute(sql)
+
+    def delete_task_data(self):
+        """ Delete record.
+        """
+
+        self.delete_task(self.connection, 2)
+
+    def delete_all_task_data(self):
+        """ Delete all records.
+        """
+
+        self.delete_all_tasks(self.connection)
+
+    @classmethod
+    def select_all_tasks(cls, conn):
+        """
+        Query all rows in the tasks table
+        :param conn: the Connection object
+        :return:
+        """
+        cur = conn.cursor()
+        cur.execute("SELECT * FROM tasks")
+
+        rows = cur.fetchall()
+
+        for row in rows:
+            print(row)
+
+    @classmethod
+    def select_task_by_priority(cls, conn, priority):
+        """
+        Query tasks by priority
+        :param conn: the Connection object
+        :param priority:
+        :return:
+        """
+        cur = conn.cursor()
+        cur.execute("SELECT * FROM tasks WHERE priority=?", (priority,))
+
+        rows = cur.fetchall()
+
+        for row in rows:
+            print(row)
+
+    def select_all_tasks_data(self):
+        """ Select all data.
+        """
+
+        self.select_all_tasks(self.connection)
+
+    def select_all_tasks_data_by_priority(self):
+        """ Select all data by priority.
+        """
+
+        self.select_task_by_priority(self.connection, 1)
+
 
 if __name__ == '__main__':
     MAIN_CLASS = MAIN()
     MAIN_CLASS.execute_sql_creation()
     MAIN_CLASS.add_sample_data()
+    MAIN_CLASS.update_task_data()
