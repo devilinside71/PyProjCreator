@@ -116,8 +116,8 @@ class ProjCreatorProgram():
             self.entry_author.delete(0, END)
             self.entry_author.insert(0, self.project_author)
             self.entry_author.grid(row=3, column=1)
-            Button(self.master, text='OK', command=self.set_project).grid(row=4, column=0, sticky=W, pady=4)
-            Button(self.master, text='Cancel', command=self.master.quit).grid(row=4, column=1, sticky=W, pady=4)
+            Button(self.master, text='OK', command=self.set_project).grid(row=5, column=0, sticky=W, pady=4)
+            Button(self.master, text='Cancel', command=self.master.quit).grid(row=5, column=1, sticky=W, pady=4)
             Button(self.master, text='Browse', command=self.set_folder).grid(row=0, column=2, sticky=W, pady=4)
 
             self.master.title('Project creator')
@@ -198,6 +198,7 @@ class ProjCreatorProgram():
                 data = data.replace('__PROJECTNAMELCASE__',
                                     text_norm.normalized_name().lower())
                 data = data.replace('__DESCRIPTION__', self.project_desc)
+
                 # print(data)
                 text_file = open(self.folder_name + '\\' + text_norm.normalized_name().lower() + '.py', 'w',
                                  encoding='utf-8')

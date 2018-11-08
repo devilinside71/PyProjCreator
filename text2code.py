@@ -82,6 +82,7 @@ class Text2Code():
             content = [x.strip() for x in content]
         out_str = self.par_variable + ' = \'\'' + '\n'
         for line in content:
+            line = line.replace('\'', '\\\'')
             out_str += self.par_variable + ' += \'' + line + '\\n\'' + '\n'
         text_file = open(self.par_output, 'w', encoding='utf-8')
         text_file.write(out_str)

@@ -488,3 +488,30 @@ Project description: ycxxyc
 2018-11-08 06:50:49,018 - pyprojcreator - DEBUG - Target folder: c:\Alma03
 2018-11-08 06:50:49,018 - pyprojcreator - DEBUG - Folder "c:\Alma03" created succesfuly
 2018-11-08 06:50:49,033 - pyprojcreator - DEBUG - Exit program
+2018-11-08 08:24:24,602 - pyprojcreator - DEBUG - Start program
+2018-11-08 08:30:35,684 - pyprojcreator - DEBUG - Start program
+2018-11-08 08:30:42,244 - pyprojcreator - DEBUG - Exit program
+2018-11-08 08:38:37,607 - pyprojcreator - DEBUG - Start program
+2018-11-08 08:38:44,551 - pyprojcreator - DEBUG - Project name: Alma
+2018-11-08 08:38:44,551 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 08:38:44,551 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 08:38:44,551 - pyprojcreator - DEBUG - SQL code: 0
+2018-11-08 08:38:44,551 - pyprojcreator - DEBUG - Target folder: c:\Alma03
+2018-11-08 08:38:44,551 - pyprojcreator - DEBUG - Folder "c:\Alma03" created succesfuly
+2018-11-08 08:38:44,567 - pyprojcreator - DEBUG - Exit program
+2018-11-08 08:38:49,907 - pyprojcreator - DEBUG - Start program
+2018-11-08 08:38:58,284 - pyprojcreator - DEBUG - Project name: aaaa
+2018-11-08 08:38:58,284 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 08:38:58,284 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 08:38:58,284 - pyprojcreator - DEBUG - SQL code: 1
+2018-11-08 08:38:58,284 - pyprojcreator - DEBUG - Target folder: c:\Alma04
+2018-11-08 08:38:58,284 - pyprojcreator - DEBUG - Folder "c:\Alma04" created succesfuly
+2018-11-08 08:38:58,303 - pyprojcreator - DEBUG - Exit program
+2018-11-08 08:44:34,891 - pyprojcreator - DEBUG - Start program
+2018-11-08 08:44:40,989 - pyprojcreator - DEBUG - Project name: sasas
+2018-11-08 08:44:40,989 - pyprojcreator - DEBUG - Project description: This class module is...
+2018-11-08 08:44:40,989 - pyprojcreator - DEBUG - Author: Laszlo Tamas
+2018-11-08 08:44:40,989 - pyprojcreator - DEBUG - SQL code: 1
+2018-11-08 08:44:40,989 - pyprojcreator - DEBUG - Target folder: c:\Alma05
+2018-11-08 08:44:40,989 - pyprojcreator - DEBUG - Folder "c:\Alma05" created succesfuly
+2018-11-08 08:44:41,013 - pyprojcreator - DEBUG - Exit program

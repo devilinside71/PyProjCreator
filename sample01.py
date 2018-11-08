@@ -8,6 +8,7 @@ import errno
 import logging
 import os
 import sys
+# __SQLITEIMPORT__
 
 __author__ = '__AUTHOR__'
 __copyright__ = 'Copyright 2027, __AUTHOR__'
